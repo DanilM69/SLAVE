@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="defaultButton" data-delete>Удалить</button>
+    <button class="defaultButton" data-sell>Продать</button>
+    <button class="defaultButton" data-buy>Купить</button>
+    <table id="mySlaves">
+        <caption>Мои рабы</caption>
+        <tr>
+            <th>возраст</th>
+            <th>вес</th>
+            <th>умение говорить</th>
+            <th>цена</th>
+            <th>действие</th>
+        </tr>
+    </table>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Создание раба</legend>
+                <label for="age">Возраст</label><input type="number" id="age" class="form_field"><span>лет</span><br>
+                <label for="weight">Вес</label><input type="number" id="weight" class="form_field"><span>кг</span><br>
+                <label for="speak">Умение говорить</label><input type="checkbox" id="speak" class="form_field check"><br>
+                <label for="price">Цена</label><input type="number" id="price" class="form_field"><span>тенге</span><br>
+            </fieldset>
+            <button id="create">Создать</button>
+        </form>
+    </div>
+    <table id="slaveTrade">
+        <caption>Рынок рабов</caption>
+        <tr>
+            <th>возраст</th>
+            <th>вес</th>
+            <th>умение говорить</th>
+            <th>цена</th>
+            <th>действие</th>
+        </tr>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>

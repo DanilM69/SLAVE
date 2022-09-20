@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+body {
+    background-color: rgb(226, 180, 120);
+}
+
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    width: 105px;
+    font-size: 19px;
+}
+
+div {
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    top: 0;
+    right: 50px;
+}
+
+fieldset {
+    padding: 10px;
+    border: 2px solid rgb(126, 109, 109);
+}
+
+input {
+    margin: 10px;
+    border: 2px solid rgb(126, 109, 109);
+    background-color: rgb(223, 188, 143);
+}
+
+.createButton {
+    margin: 5px 0 5px 0;
+}
+
+#slaveTrade {
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+
+.defaultButton {
+    display: none;
+}
+
+Button {
+    width: 100px;
+    height: 30px;
+}
+
+button {
+    background-color:  rgb(126, 109, 109);
+    border: none;
+}
+
+button:hover {
+    background-color:  rgb(100, 79, 79);
+    border: none;
+    cursor: pointer;
+}
+
+input[type ='number'] {
+    width: 55px;
+}
+
+input:focus {
+    outline: 1px solid rgb(148, 127, 127);
+}
+
+caption {
+    padding: 10px;
+    font-size: 23px;
+}
+
+#speak {
+    background-color: #000;
+}
+
+#speak:hover {
+    cursor: pointer;
+}
+
+.check {
+    position: relative;
+}
+
+.check::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(126, 109, 109);
+    border-radius: 2px;
+    background-color: rgba(223, 188, 143, 0.9);
+}
+
