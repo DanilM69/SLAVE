@@ -166,3 +166,5 @@ let arrMySlaves = [];
 let arrSlavTrade = [];
 console.log(arrMySlaves);
 console.log(arrSlavTrade);
+
+//huy huy loh loh blydina blydina
